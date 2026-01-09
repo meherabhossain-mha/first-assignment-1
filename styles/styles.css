@@ -121,5 +121,20 @@ height: 660px;
    border-radius: 4px;
    border: 1px solid rgba(255, 255, 255, 1);
 cursor: pointer;
-
 }
+.txt .header .head{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    line-height: auto;
+    margin-top: 35px;
+    margin-bottom: 16px;
+}
+.txt .header .para{
+    text-align: center;
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+
