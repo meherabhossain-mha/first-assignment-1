@@ -196,11 +196,114 @@ text-align: center;
     padding-left: 120px;
 }
 #brain .brain-p2{
-  border: 2px solid red; 
+  /* border: 2px solid red;  */
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
-  
+  margin-top: 220px;
+  margin-right: 120px;
+  margin-bottom: 100px;
+}
+#brain .brain-p2 h4{
+    font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+color: #30B868;
+margin-bottom: 16px;
+}
+#brain .brain-p2 h1{font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+color: #001931;
+margin-bottom: 16px;
+}
+#brain .brain-p2 p{
+    font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+color: #627382;
+margin-bottom: 40px;
+}
+#brain .brain-p2 li{
+    list-style-type: none;
 
-
+}
+#about {
+    padding-top: 120px;
+}
+#about .about-container{
+    width: 72%;
+    max-width: 1200px;
+    margin:  0px auto;
+    text-align: center;
+    background-color: #f7f6f2;
+    padding: 80px 40px;
+}
+#about .about-container .section-hd h1{
+    font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+margin-bottom: 16px;
+}
+#about .about-container .section-hd p{
+    font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color: #627382;
+margin-bottom: 24px;
+}
+#about .about-container .about-btn button{
+   
+padding: 12px 16px 12px 16px;
+background-color: #30B868;
+color: #FFFFFF;
+border: none;
+border-radius: 4px;
+box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+margin-bottom: 16px;
+cursor: pointer;
+}
+#about .about-container .about-para p{
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+color: #627382;
+}
+.footer-imgs{
+    background-color: #001931;
+    padding: 120px 120px 165px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-imgs p{
+    color: #FFFFFF;
+    font-size: medium;
+    font-weight: 20px;
+}
+.end-info{
+    padding: 30px 120px 30px 120px;
+    background-color: #001931;
+    color: #fafafa;
+    text-align: center;
 }
