@@ -183,3 +183,24 @@ letter-spacing: 0%;
 text-align: center;
 }
 
+#brain {
+    display: flex; 
+    gap: 60px;
+}
+#brain .brain-p1 img{
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 12px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 120px;
+}
+#brain .brain-p2{
+  border: 2px solid red; 
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  
+
+
+}
